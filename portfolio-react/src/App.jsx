@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
@@ -11,17 +11,11 @@ function App() {
   return (
     <Router>
       <Header />
-      <Switch>
-        <Route path="/portfolio">
-          <Portfolio />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/" exact>
-          <AboutMe />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<AboutMe />} />
+      </Routes>
     </Router>
   );
 }
