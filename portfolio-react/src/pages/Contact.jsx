@@ -1,26 +1,13 @@
 // src/pages/Contact.jsx
 import React from 'react';
+import ContactForm from '../components/Contact';
 
 function Contact() {
   return (
     <section>
       <h2>Contact</h2>
       <div className="contact-form">
-        <form>
-          <div className="form-group">
-            <label>Name</label>
-            <input type="text" name="name" />
-          </div>
-          <div className="form-group">
-            <label>Email Address</label>
-            <input type="email" name="email" />
-          </div>
-          <div className="form-group">
-            <label>Message</label>
-            <textarea name="message"></textarea>
-          </div>
-          <button type="submit">Submit</button>
-        </form>
+        <ContactForm />
       </div>
     </section>
   );
