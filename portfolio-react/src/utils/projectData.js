@@ -14,6 +14,20 @@ const projectData = [
       demoLink: 'https://yajiit.github.io/Workday-Planner/',
       githubLink: 'https://github.com/Yajiit/Workday-Planner',
     },
+    {
+      id: 3,
+      title: 'Project 3',
+      description: 'Description of project 3.',
+      demoLink: 'https://yajiit.github.io/5-Day-Weather-Forecast/',
+      githubLink: 'https://github.com/Yajiit/5-Day-Weather-Forecast',
+    },
+    {
+      id: 4,
+      title: 'Project 4',
+      description: 'Description of project 4.',
+      demoLink: 'https://yajiit.github.io/Movie-Info-Retreiver/',
+      githubLink: 'https://github.com/Yajiit/Movie-Info-Retreiver',
+    },
   ];
   
   export default projectData;

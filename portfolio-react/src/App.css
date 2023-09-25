@@ -87,6 +87,7 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
+  justify-content: center;
 }
 
 .project-card {
@@ -98,6 +99,7 @@ nav a:hover {
 }
 
 .project-card h3 {
+  color:#000;
   font-size: 1.5rem;
   margin-top: 1rem;
 }
@@ -109,7 +111,7 @@ nav a:hover {
 
 .project-image {
   max-width: 100%; /* Set the maximum width to 100% of its parent container */
-  max-height: 300px; /* Set the maximum height (adjust as needed) */
+  max-height: 600px; /* Set the maximum height (adjust as needed) */
   display: block; /* Ensure the image doesn't have extra spacing */
   margin: 0 auto; /* Center the image horizontally within its container */
 }
@@ -129,14 +131,7 @@ nav a:hover {
 .project-links a:hover {
   color: #535bf2;
 }
-/* PORTFOLIO STYLES END */
 
-
-/* PROJECT STYLES START */
-.project-list {
-  display: grid;
-  gap: 20px;
-}
 
 /* For screens with a maximum width of 768px, make project cards full-width and arrange them vertically */
 @media (max-width: 768px) {
@@ -151,7 +146,7 @@ nav a:hover {
     grid-template-columns: repeat(auto-fill, minmax(calc(20% - 20px), calc(30% - 20px)));
   }
 }
-/* PROJECT STYLES END */
+/* PORTFOLIO STYLES END */
 
 
 /* FOOTER STYLES START */
@@ -160,6 +155,7 @@ footer {
   bottom: 0;
   background-color: #1a1a1a; /* Background color for the footer */
   padding: 1rem 0;
+  margin-top: 2rem;
   z-index: 100;
 }
 
@@ -210,5 +206,6 @@ body {
 /* Push content above the footer */
 main {
   flex: 1;
+  margin-bottom: 2rem;
 }
 /* FOOTER STYLES END */
