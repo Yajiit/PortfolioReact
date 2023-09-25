@@ -5,7 +5,7 @@ function Project({ title, imageSrc, demoLink, githubLink }) {
   return (
     <div className="project-card">
       <h3>{title}</h3>
-      <img src={imageSrc} alt={`${title} screenshot`} />
+      <img src={imageSrc} alt={`${title} screenshot`} className="project-image"/>
       <div className="project-links">
         <a href={demoLink} target="_blank" rel="noopener noreferrer">
           Live Demo

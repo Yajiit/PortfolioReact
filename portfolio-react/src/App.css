@@ -40,3 +40,175 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/* HEADER STYLES START */
+header {
+  position: sticky;
+  top: 0;
+  background-color: #1a1a1a; /* Background color for the header */
+  padding: 1rem 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+/* Custom text sizing for header elements */
+header h1 {
+  font-size: 2rem; /* Adjust the font size as needed */
+  margin: 0;
+  color: #fff; /* Text color for the header title */
+}
+
+nav a {
+  font-size: 1rem; /* Adjust the font size as needed */
+  text-decoration: none;
+  color: #fff; /* Text color for navigation links */
+}
+
+nav a:hover {
+  color: #646cff; /* Text color for navigation links on hover */
+}
+/* HEADER STYLES END */
+
+
+/* PORTFOLIO STYLES START */
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #ffffff; /* Background color for project cards */
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.project-card p {
+  margin-top: 0.5rem;
+  color: #888;
+}
+
+.project-image {
+  max-width: 100%; /* Set the maximum width to 100% of its parent container */
+  max-height: 300px; /* Set the maximum height (adjust as needed) */
+  display: block; /* Ensure the image doesn't have extra spacing */
+  margin: 0 auto; /* Center the image horizontally within its container */
+}
+
+.project-links {
+  margin-top: 1rem;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 1rem;
+  color: #646cff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-links a:hover {
+  color: #535bf2;
+}
+/* PORTFOLIO STYLES END */
+
+
+/* PROJECT STYLES START */
+.project-list {
+  display: grid;
+  gap: 20px;
+}
+
+/* For screens with a maximum width of 768px, make project cards full-width and arrange them vertically */
+@media (max-width: 768px) {
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* For screens with a minimum width of 769px, make project cards take up 20-30% of screen width and arrange them in rows of three */
+@media (min-width: 769px) {
+  .project-list {
+    grid-template-columns: repeat(auto-fill, minmax(calc(20% - 20px), calc(30% - 20px)));
+  }
+}
+/* PROJECT STYLES END */
+
+
+/* FOOTER STYLES START */
+footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #1a1a1a; /* Background color for the footer */
+  padding: 1rem 0;
+  z-index: 100;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 1rem;
+}
+
+/* Custom text styling for footer links */
+.footer-links a {
+  text-decoration: none;
+  color: #fff; /* Text color for footer links */
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  color: #646cff; /* Text color for footer links on hover */
+}
+
+/* Styles to keep footer at the bottom */
+html {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Push content above the footer */
+main {
+  flex: 1;
+}
+/* FOOTER STYLES END */

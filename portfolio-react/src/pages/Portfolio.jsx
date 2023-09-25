@@ -2,6 +2,7 @@
 import React from 'react';
 import Project from '../components/Project'; // Import Project component
 import projectData from '../utils/projectData'; // Import project data
+import imageData from '../utils/imageData';
 
 function Portfolio() {
   return (
@@ -12,7 +13,7 @@ function Portfolio() {
           <Project
             key={index}
             title={project.title}
-            imageSrc={project.imageSrc}
+            imageSrc={imageData[project.id]}
             demoLink={project.demoLink}
             githubLink={project.githubLink}
           />
