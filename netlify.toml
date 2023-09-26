@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build" # Adjust this to your build command
+  publish = "dist"          # Adjust this to your publish directory
+
+[dev]
+  framework = "# Not required for production"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
