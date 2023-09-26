@@ -28,6 +28,21 @@ const projectData = [
       demoLink: 'https://yajiit.github.io/Movie-Info-Retreiver/',
       githubLink: 'https://github.com/Yajiit/Movie-Info-Retreiver',
     },
+    {
+      id: 5,
+      title: 'Project 5',
+      description: 'Description of project 5.',
+      demoLink: 'https://justanotherjate-986e7e2713a4.herokuapp.com/',
+      githubLink: 'https://github.com/Yajiit/TextEditorPWA/',
+    },
+    {
+      id: 6,
+      title: 'Project 6',
+      description: 'Description of project 6.',
+      demoLink: 'https://floating-shore-17171-b5f610a9ea38.herokuapp.com/',
+      githubLink: 'https://github.com/Yajiit/Express-Notetaker',
+    },
+    
   ];
   
   export default projectData;
