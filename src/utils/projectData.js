@@ -42,7 +42,13 @@ const projectData = [
       demoLink: 'https://floating-shore-17171-b5f610a9ea38.herokuapp.com/',
       githubLink: 'https://github.com/Yajiit/Express-Notetaker',
     },
-    
+    {
+      id: 7,
+      title: 'Project 7, Y',
+      description: 'Social media app known as Y.',
+      demoLink: 'https://the-app-known-as-y-a296b8caf4b7.herokuapp.com/',
+      githubLink: 'https://github.com/EmmerTheVillain/Y',
+    },
   ];
   
   export default projectData;
