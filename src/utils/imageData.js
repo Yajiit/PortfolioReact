@@ -6,6 +6,7 @@ import project3Image from '../images/project3-image.jpg';
 import project4Image from '../images/project4-image.jpg';
 import project5Image from '../images/project5-image.jpg';
 import project6Image from '../images/project6-image.jpg';
+import project7Image from '../images/project7-image.jpg'
 
 const imageData = {
   1: project1Image,
@@ -14,6 +15,7 @@ const imageData = {
   4: project4Image,
   5: project5Image,
   6: project6Image,
+  7: project7Image,
 };
 
 export default imageData;
