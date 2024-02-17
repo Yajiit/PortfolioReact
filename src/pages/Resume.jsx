@@ -21,8 +21,15 @@ function Resume() {
           <li>HTML</li>
           <li>React</li>
           <li>JavaScript</li>
+          <li>SQL</li>
+          <li>CSS</li>
           <li>MERN Stack</li>
           <li>Handlebars</li>
+          <li>Progressive Web Applications</li>
+          <li>Model-View-Controller</li>
+          <li>Application Programming Interfaces</li>
+          <li>Object-Oriented Programming</li>
+          <li>Object-Relational Mapping</li>
         </ul>
       </div>
     </section>
