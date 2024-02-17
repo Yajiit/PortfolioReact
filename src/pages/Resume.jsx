@@ -9,8 +9,8 @@ function Resume() {
         <p>
           You can download my resume{' '}
           <a
-            href={`data:text/plain;charset=utf-8,${encodeURIComponent(resumeText)}`}
-            download="resume.txt"
+            href={"./resume.docx"}
+            download="AgerterTJresume.docx"
           >
             here
           </a>
