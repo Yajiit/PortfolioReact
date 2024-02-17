@@ -1,5 +1,4 @@
 import React from 'react';
-import resumeText from '../utils/resumeText.js'
 
 function Resume() {
   return (
